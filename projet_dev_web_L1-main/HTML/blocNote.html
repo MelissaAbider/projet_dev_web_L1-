@@ -1,0 +1,39 @@
+<!DOCTYPE html >
+<html lang="en"  xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content=" KOMBEDE Kokou et ABIDER Melissa">
+	<title>Bloc Note</title>
+	<link rel="stylesheet" href="../CSS/blocNote.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>   
+<body>
+
+<h1> Votre Bloc note</h1>
+<form action="#" method="post">
+    <table>
+        <tr>
+            <td class="B" onclick="modif('bold')">B</td>
+            <td class="I" onclick="modif('italic')">I</td>
+            <td class="U" onclick="modif('underline')">U</td>
+            <td class="S" onclick="modif('strikeThrough')">S</td>
+            <td class="A1" onclick="modif('backColor')">A</td>
+        </tr>
+    </table>
+         <!-- <textarea name="" class="" id="textarea" cols="150" rows="100"></textarea> -->
+    <iframe id="iframe" name="textField" ></iframe>   
+</form>
+<p class="textg"> retour</p>
+<a href="cv.html" class="flecheg">&#8592;</a>
+<p class="text">  avancer</p>
+<a href="agenda.html" class="fleche">&#8594;</a>
+    
+    <h1>L'utilisation de de Bloc Note</h1>
+    <p class="p"> <span class="span"> Son utilisation est trés simple!<br></span> Vous pouvez ecrire tout ce que vous voulez </p>
+<script src="../javascript/blocNote.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html >
+<html lang="en"  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content=" KOMBEDE Kokou et ABIDER Melissa">
+	<title>Figures</title>
+	<link rel="stylesheet" href="../CSS/figure.css">
+    <script src="https://kit.fontawesome.com/076efc27e0.js" crossorigin="anonymous"></script>
+</head>   
+<body class="body" onload="construire()">
+    <div class="sommaire" id="debut"> 
+        <span>SOMMAIRE</span> 
+        <ul>
+        <li> <a  class="a" href="#creation"> Modification de la figure</a></li>
+        <li> <a class="a" href="#utilisation">Utilisation du Canvas</a> </li>
+        <li> <a class="a" href="#formes"> Les formes utilisées</a> </li>
+      </ul>  
+    </div>
+  
+   <p class="p1" id="creation">Personnalisé le bateau</p>
+
+  <div class="candiv">
+    <canvas id="canvas1" width="1300" height="700"  ></canvas>
+    <form action="#" method="post" id="form1">
+       <details>
+        <summary> couleur du bateau</summary>
+        <input type="color" id="coulB"  value="#DD0000" onchange="coulBat()">
+    </details>
+    <details>
+        <summary>valeur du ciel</summary>
+        <select name="valCiel" onchange="changeCiel()" >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="0" selected>0</option>
+            <option value="-1">-1</option>
+            <option value="-2">-2</option>
+        </select>
+    </details>
+    <details>
+        <summary>cacher une image</summary>
+        <label for="bateau">bateau</label><p><input type="checkbox"  id="bateau"  onchange="affB()"></p>
+        <label for="mer">      Mer</label><p><input type="checkbox"  id="mer"  onchange="affM()"></p>
+
+    </details>
+
+    <input class="button" type="button" value="MENU GUI">
+    </form>
+</div>
+    <h1 id="utilisation">L'utilisation du Canvas</h1>
+  
+  <div class="p2">Grace à notre page vous pouvez modifier et personnalisé le dessin comme suit:
+    <ul>
+        <li class="li"> vous pouvez changer la couleur du bateau en choisissant la couleur qui vous convient.</li>
+        <li class="li">Vous pouvez modifier la couleur du ciel selon le chiffre choisi :
+            <dl >
+                <dt class="dt"><strong>la valeur "0" :</strong> </dt>
+                    <dd class="dd"> un temps normale</dd>
+                
+                <dt class="dt"> <strong>les valeurs croissantes :</strong> </dt>
+                    <dd class="dd">un temps plus clair qui corresponds à la journé.</dd>
+                
+               <dt class="dt"> <strong>les valeurs decroissantes  :</strong></dt>
+                    <dd class="dd"> un temps foncé qui corresponds à la nuit.</dd>
+                
+            </dl>
+        </li>
+        <li class="li"> Vous pouvez choisir d'afficher ou pas le bateau ainsi que la mer.</li>
+    </ul>
+</div>
+  <h1 id="formes">Les formes géometriques utilisées</h1>
+ <p class="p2">On vous propose ici la listes des formes géométriques utlisées pour la construction de notre bateau acompagné de la mer et le ciel</p>
+   <br><br><br>
+ <div class="fig">
+        <img src="../MULTIMEDIA/cercle.png" alt="cicle" title="circle" > 
+        <img src="../MULTIMEDIA/segment.png" alt=" segment" title="segment">
+        <img src="../MULTIMEDIA/sinus.png" alt=" sinus" title="besier degree 3">
+        <img src="../MULTIMEDIA/arc.png" alt=" arc" title="besier degree 2" >
+        <img src="../MULTIMEDIA/rect.png" alt=" rectangle" title="rectangle " >
+     
+ </div>
+       <br><br>
+       <div class="mov">
+    <aside>
+       <h2 class="textg"> retour</h2>
+       <a href="agenda.html" class="flecheg">&#8592;</a>
+    </aside>
+    <aside>
+       <h2 class="text">  avancer</h2>
+       <a href="tutoriel.html" class="fleche">&#8594;</a>
+    </aside>
+
+    </div>
+
+    <a class="a1" href="#debut">&#8593; retour au sommaire </a>
+<script src="../javascript/figure.js"></script>
+</body>
+</html>

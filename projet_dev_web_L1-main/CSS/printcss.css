@@ -1,0 +1,140 @@
+
+     section {
+        display: flex;
+    }
+    .photo{
+        margin-left: 0px ;
+        margin-top: 50px ;
+        height: 200px;
+        width: 200px;
+        background-color: #adadad;
+        border-radius: 50%;
+    }
+    section .gauche{
+    background-color: rgb(27, 128, 117);
+    width: 260px ;
+    color:white;
+    padding-left: 38px ;
+   
+   }
+   section .droite{
+    background-color: white;
+    padding-left: 30px ;
+    padding-top: 30px ;
+    
+   }
+   .gauche{
+    height: 33.5cm  ;
+   }
+    .gauche textarea{
+    background-color: rgb(27, 128, 117);
+    color: white;
+    border: none;
+    resize: none;
+   }
+   .gauche textarea::placeholder {
+    color:white;
+    opacity: 0.8; /* Firefox */
+  }
+  .ghr{
+    width: 230px;
+    margin-left: 0px ;
+    height: 1.5px ;
+    background-color: white;
+  }
+  textarea:focus{
+    outline: none;
+  }
+  .droite{
+    height: 30.2cm  ;
+   }
+  .nom {
+    width: 80%;
+    height: 40px ;
+    border: none;
+    font-size: 30px;
+    
+  }
+  .nom:focus{
+     outline: none;
+  }
+  .nom::placeholder{
+    font-size: 30px ;
+    
+    
+  }
+  .post{
+    margin-top: 10px ;
+    width: 80%;
+    border: none;
+  }
+
+  .post:focus{
+    outline: none;
+  }
+  .post::placeholder{
+    font-size: 20px;
+  }
+  .droite textarea{
+    margin-top: 20px ;
+    border: none;
+    resize: none; 
+  }
+  .droite textarea:focus{
+    outline: none;
+  }
+  .dhr{
+    width: 600px;
+    margin-left: 0px ;
+    height: 1.5px ;
+    background-color:  rgb(27, 128, 117);
+  }
+  .lbas{
+    margin-top: 0px;
+    height:3px; 
+    background-color: rgb(45, 48, 46);
+  }
+  .boutons{
+width:290px ; 
+position:absolute;
+margin-top: 30px ;
+right: 0;
+}
+input{
+  height: 32px;
+  width: 104px ;
+ 
+}
+ .boutons input{
+  border-color: white;
+  background-color: rgb(27, 128, 117);
+  color: white;
+  border-radius: 5%;
+  font-size: 18px ;
+  font-weight: bold;
+  transition:    0.2s;
+}
+.boutons input:focus{
+  outline: none;
+}
+.boutons input:hover{
+  background-color: rgb(36, 163, 148);
+  transform: scale(1.1);
+}
+ .effacer{
+  margin-right:25px  ;
+}
+
+/*    
+   footer{
+    background-color: rgb(139, 137, 137);
+    height: 45px ;
+    position: absolute;
+    bottom: 0px ;
+    align-items: center;
+    padding: 10px ;
+    opacity: 1;
+    font-weight: bold;
+    width:98.75%;
+  
+} */

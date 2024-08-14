@@ -1,0 +1,90 @@
+<!DOCTYPE html >
+<html lang="en"  xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta  charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content=" KOMBEDE Kokou et ABIDER Melissa">
+	<title>CV</title>
+	<link rel="stylesheet" href="../CSS/cv.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>   
+<body> 
+    <div class="sommaire" id="debut"> 
+      <span>SOMMAIRE </span>
+      <ul>
+      <li> <a class="a" href="#creation"> Céation du CV</a></li>
+      <li> <a class="a" href="#objectif">Objectif du CV</a> </li>
+      <li> <a class="a" href="#utilisation"> Utilisation du cv </a> </li>
+    </ul>  
+  </div>
+    <form action="toto@gmail.com" method="post" id="creation">
+     <div id="section">
+      <div >
+      <article class="gauche">
+        <h2>CONTACT</h2>
+         <hr class="ghr">
+         <input type="text" class="input" id="adresse" placeholder="adresse" required >
+         <br>
+         <input type="tel"  pattern="[0-9]{10}" class="input"  id="contact" placeholder="contact" required>
+         <br>
+         <input type="email" class="input" pattern=".+@.+\.com" id="email" placeholder="prenomNom@sample.com" required >
+         <br>
+         <input type="text" class="input" id="codePostal" placeholder="code postal" required>
+          <br>
+         <input type="text" class="input" id="ville" placeholder="ville" required>
+         <br>
+         <input type="text" class="input" id="pays" placeholder="pays" required>
+       
+         <h2>CONPETENCES</h2>
+         <hr class="ghr">
+         <textarea cols="27" rows="20" placeholder="Entrez vos compétences" required></textarea>
+         <h2>CENTRES D'INTERET</h2>
+         <hr class="ghr">
+         <textarea cols="27" rows="10" placeholder="Quels sont vos centres d'intèrèt" required ></textarea>
+  
+    
+    </article>
+      <article class="droite">
+       <input class="nom" type="text" placeholder="NOM ET PRENOMS" required> 
+       <input  class="post"  type="text" placeholder="poste à occuper" required>
+       <textarea cols="30" rows="10" placeholder="motivation et accomplissement" required></textarea>
+       <h2>EXPERIENCE PROFESSIONNELLE</h2>
+       <hr class="dhr">
+       <textarea  cols="25" rows="20" placeholder="votre expérience professionnelle" required ></textarea>
+       <h2>FORMATION</h2>
+       <hr class="dhr">
+       <textarea cols="25" rows="10" placeholder="vos formations" required></textarea>
+       <h2>LANGUES</h2>
+       <hr class="dhr">
+       <textarea cols="25" rows="7" placeholder="compétences linguistique" required></textarea>
+    </article>
+  </div>
+</div>
+      <div class="boutons">
+        <input class="submit" type="submit" value="envoyé" >
+        <input class="effacer" type="reset" value="efface" >
+      </div>
+    </form>
+
+  <p class="textg"> retour</p>
+   <a href="index.html" class="flecheg">&#8592;</a>
+   <p class="text">  avancer</p>
+   <a href="blocNote.html" class="fleche">&#8594;</a>
+   
+   <h1 id="objectif"> Objectif du CV</h1>
+   <p class="p"> Vous disposer d'un modele du CV vide que vous pouvez remplir avec vos informations personnelles.<br>
+       Cet outil permetterait de facilité la création de votre CV personnalisé et de pouvoir l'imprimer ou d'envoyer votre CV directement aprés la finalisation du remplissage.
+   </p>
+  
+   <h1 id="utilisation">L'utilisation du CV</h1>
+   <p class="p"> <span class="span"> Son utilisation est trés simple!<br></span> Vous mettez vos informations personnales dans les parties qui correspondent.
+   <br> <span class="span2"> ATTENTION </span> Toutes les cases du CV doivent etre remplient si vous souhaitez l'envoyez.
+       
+   </p>
+   <a class="a1" href="#debut">&#8593; retour au sommaire </a>
+  
+    <script  src="../javascript/cv.js"></script>
+</body>
+</html>

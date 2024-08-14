@@ -1,0 +1,290 @@
+body{
+  background-color: rgb(233, 228, 223);
+    margin:0; 
+    font-weight: 300;
+    position: relative;
+    }
+    header{
+        display: flex;
+        background-color: rgb(110, 109, 109);
+        position: sticky;
+        top:0px;
+        height:130px;
+        align-items:center;
+        box-shadow: 0px 0.2px 5px 0.3px #adadad; /*1 à 4 valeur repectivement debordement horizontal, vertical l'intensité du flou*/
+         }
+    header .logo{
+        margin: 50px ;
+      }
+    header .logo img{
+    height: 100px;
+    width: auto;
+    }
+    header nav{
+        margin-left: 95px ;
+    }
+    header nav ul{
+        display: flex;
+        list-style-type: none;
+    
+    }
+    header nav ul li{
+        opacity: 0.9;
+       margin-left: 45px;
+       font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+    }
+   
+    form{
+        height: 35cm;
+        margin-left: 300px;
+        margin-top: 30px;
+        position: relative;
+        box-shadow: 2px 2px 10px 2px;
+        width: 26cm;
+        margin-bottom: 50px ;
+         background-color: rgb(240, 224, 208);
+    }
+    form div {
+        display: flex;
+    }
+    .photo{
+        margin-left: 0px ;
+        margin-top: 50px ;
+        height: 200px;
+        width: 200px;
+        background-color: #adadad;
+        border-radius: 50%;
+    }
+   form div .gauche{
+    background-color: rgb(27, 128, 117);
+    width: 260px ;
+    color:white;
+    padding-left: 38px ;
+   
+   }
+   form div .droite{
+    background-color: white;
+    padding-left: 30px ;
+    padding-top: 30px ;
+    
+   }
+   .gauche{
+    height: 31cm  ;
+   }
+    .gauche textarea{
+    background-color: rgb(27, 128, 117);
+    color: white;
+    border: none;
+    resize: none;
+   }
+   .gauche textarea::placeholder {
+    color:white;
+    opacity: 0.8; /* Firefox */
+  }
+  .ghr{
+    width: 230px;
+    margin-left: 0px ;
+    height: 1.5px ;
+    background-color: rgb(255, 140, 0);
+  }
+  textarea:focus{
+    outline: none;
+  }
+  .droite{
+    height: 30.2cm  ;
+   }
+  .nom {
+    width: 80%;
+    height: 40px ;
+    border: none;
+    font-size: 30px;
+    
+  }
+  .nom:focus{
+     outline: none;
+  }
+  .nom::placeholder{
+    font-size: 30px ;
+    
+    
+  }
+  .post{
+    margin-top: 10px ;
+    width: 80%;
+    border: none;
+  }
+
+  .post:focus{
+    outline: none;
+  }
+  .post::placeholder{
+    font-size: 20px;
+  }
+  .droite textarea{
+    margin-top: 20px ;
+    border: none;
+    resize: none; 
+  }
+  .droite textarea:focus{
+    outline: none;
+  }
+  .dhr{
+    width: 600px;
+    margin-left: 0px ;
+    height: 1.5px ;
+    background-color:  rgb(27, 128, 117);
+  }
+  .lbas{
+    margin-top: 0px;
+    height:3px; 
+    background-color: rgb(45, 48, 46);
+  }
+  .boutons{
+width:360px ; 
+position:absolute;
+margin-top: 30px ;
+right: 0;
+}
+input{
+  height: 32px;
+  width: 104px ;
+  border-color: white;
+  background-color: rgb(27, 128, 117);
+  color: white;
+  border-radius: 5px;
+  font-size: 18px ;
+  font-weight: bold;
+  transition:    0.2s;
+  
+}
+.nom::placeholder{
+color: white;
+}
+.post::placeholder{
+  color: white;
+}
+input:hover{
+  background-color: rgb(36, 163, 148);
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+ .effacer{
+  margin-right:25px  ;
+}
+.flecheg{
+  position: absolute;
+  bottom: 1000px; 
+  left: 60px;
+  font-size: 70px;
+  transition: 0.2s;
+  color: black;
+  opacity: 0.8;
+
+}
+.fleche{
+  position: absolute;
+  bottom: 1000px; 
+  right: 60px;
+  font-size: 70px;
+  transition: 0.2s;
+  color: black;
+  opacity: 0.8;
+
+}
+.textg{
+  position: absolute;
+  bottom: 1040px; 
+  left: 60px;
+  font-size: 23px;
+  color: red;
+ 
+
+}
+.text{
+  position: absolute;
+  bottom: 1040px; 
+  right: 100px;
+  font-size: 23px;
+  color: red;
+ 
+
+}
+.fleche:hover{
+cursor: pointer;
+transform: scale(1.5);
+color: rgb(255, 0, 162);
+
+}
+.flecheg:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  color: rgb(255, 0, 162);
+  
+  }
+.input{
+ 
+    width: 200px;
+    border: none;
+
+}
+.input::placeholder{
+  color: #ffffff;
+  opacity:0.6;
+  font-weight: 300;
+}
+p{
+  font-size: 28px;
+  color: rgb(123, 8, 231);
+  margin-left: 20px;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+.span{
+  font-weight:bolder;
+  font-size: 30px;
+  color: rgb(91, 5, 172);
+}
+.span2{
+  font-weight:bolder;
+  font-size: 30px;
+  color: rgb(237, 30, 92);
+}
+.sommaire{
+  font-size: 23px;
+  margin-top: 50px;
+  border:4px solid rgb(137, 6, 115);
+  width: 280px;
+  border-radius: 15px;
+  margin-left: 5px;
+  background-color: rgb(230, 203, 241);
+  line-height: 40px;
+}
+span{
+  font-size: 28px;
+  color: rgb(123, 8, 231);
+  margin-left: 20px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+  
+.a{
+  color: rgb(180, 62, 139);
+  font-weight: 500;
+}
+.a1{
+  font-size: 30px;
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom:30px ;  
+}
